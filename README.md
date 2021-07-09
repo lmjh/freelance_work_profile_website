@@ -1,102 +1,99 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Freelance Work Profile Website
 
-Welcome lmjh,
+The purpose of the site is to provide information about my freelance services to prospective clients and provide contact details to both new and returning customers.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. The last update to this file was: **July 2, 2021**
+I primarily cater to local businesses, freelancers and charities. My clients are usually looking for a locally-based developer to work with and aren't usually interested in many technical details.
 
-## Gitpod Reminders
+The site will be designed to provide easily accessible, relevant information to my target audience. I will use a responsive, mobile-first design to ensure the site is effective and well laid out across a range of devices.
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+***
 
-`python3 -m http.server`
+## User Experience
 
-A blue button should appear to click: _Make Public_,
+Most users of the site will be either prospective new clients or returning clients. 
 
-Another blue button should appear to click: _Open Browser_.
+### New Client User Stories
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+* As a prospective new client, I want to quickly and easily understand the services on offer so I can decide if they might meet my needs.
+* As a prospective new client, I want to learn about the experiences of previous clients so I can determine if the service is reliable.
+* As a prospective new client, I want to know how to request more information or hire the freelancer.
+* As a prospective new client, I want to quickly be able to understand how to navigate the site to find the information I need.
+* As a prospective new client, I want to learn more about the freelancer so I know who I might be working with.
 
-A blue button should appear to click: _Make Public_,
+### Returning Client User Stories
 
-Another blue button should appear to click: _Open Browser_.
+* As a returning client, I want to quickly navigate to the information I need.
+* As a returning client, I want to be able to contact the freelancer through my preferred communication method. 
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+### Design
 
-To log into the Heroku toolbelt CLI:
+* A clean and minimalist design to highlight the content and prioritise ease of use.
+* ...
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+### Wireframes
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+* Mobile Landing Screen Wireframe - [View](assets/images/mobile_landing.png)
+* Mobile Full Layout Wireframe - [View](assets/images/mobile_layout.png)
+* Tablet Landing Screen Wireframe - [View](assets/images/tablet_landing.png)
+* Tablet Full Layout Wireframe - [View](assets/images/tablet_layout.png)
+* Desktop Landing Screen Wireframe - [View](assets/images/desktop_landing.png)
+* Desktop Full Layout Wireframe - [View](assets/images/desktop_layout.png)
 
-------
+***
 
-## Release History
+## Features
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+* A simple navigation bar to allow users to easily find content.
+* Clear and concise information on services.
+* Testimonials from previous clients.
+* Clear and readily accessible contact details and a simple contact form.
+* Responsive design.
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+***
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+## Organisation of Content
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+The site contains relatively few features and doesn't have a large amount of content to accommodate, so a single page with clearly delineated sections and a simple and always-visible navigation bar would be a good solution. Although the content could be spread across multiple pages, this would add an unnecessary  burden on the user to click between pages to load and view content. Some of the pages would also be quite sparsely populated with content. From an SEO perspective, it's generally considered better to have a single content-rich page than multiple thin pages.
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+Because the main purpose of the website is to describe and promote my services to prospective clients, content sections will be prioritised in the following order:
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+1. A home screen / hero area with a clear and concise description of the purpose of the site and the services available.
+2. A section with further details on the services on offer. This will be more detailed than the hero area, but still concisely written.
+3. A section featuring testimonials from previous clients.
+4. A section with further details on myself, my experience and my work.
+5. A section with contact details and a contact form.
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+N.B. Although providing contact details is a priority for both the business and the users, the contact details section has been placed at the bottom of the page for the following reasons:
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+* Providing useful information to new users is a higher priority than providing contact details. Most new prospective clients won't want to contact a freelancer until they have an understanding of the services on offer.
+* There is a convention that contact forms are usually placed at the bottom of single-page websites. Many users will expect the form to be positioned there and can quickly scroll to the bottom of the page to find it. I don't see a good reason to break this convention here.
+* The low positioning of the form / details will be mitigated by frequently placing buttons linking to the form throughout the other sections. This acts as a call to action and ensures the contact section is always readily accessible.
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+***
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+## Technologies
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+### Languages Used
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+* HTML5
+* CSS3
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+### Frameworks, Libraries & Programs Used
 
-------
+1. GitHub - 
+2. GitPod - 
+3. Balsamiq - 
+4. Bootstrap - 
+5. ...
 
-## FAQ about the uptime script
+***
 
-**Why have you added this script?**
+## Testing
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+***
 
-**How will this affect me?**
+## Deployment
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+***
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!
+## Other Credits and Acknowledgements
