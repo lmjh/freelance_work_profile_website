@@ -22,7 +22,7 @@ Most users of the site will be either prospective new clients or returning clien
 
 ### Returning Client User Stories
 
-* As a returning client, I want to quickly navigate to the information I need.
+* As a returning client, I want to quickly find information on services offered.
 * As a returning client, I want to be able to contact the freelancer through my preferred communication method. 
 
 ### Design
@@ -32,12 +32,14 @@ Most users of the site will be either prospective new clients or returning clien
 
 ### Wireframes
 
-* Mobile Landing Screen Wireframe - [View](assets/images/mobile_landing.png)
-* Mobile Full Layout Wireframe - [View](assets/images/mobile_layout.png)
-* Tablet Landing Screen Wireframe - [View](assets/images/tablet_landing.png)
-* Tablet Full Layout Wireframe - [View](assets/images/tablet_layout.png)
-* Desktop Landing Screen Wireframe - [View](assets/images/desktop_landing.png)
-* Desktop Full Layout Wireframe - [View](assets/images/desktop_layout.png)
+The site will be responsively designed to adapt to the viewing device.
+
+![An illustration of the landing page on different devices](documentation/wireframes/responsive_layouts.png)
+
+Full layout wireframes for different sized devices can be viewed here:
+* Mobile Full Layout Wireframe - [View](documentation/wireframes/mobile_layout.png)
+* Tablet Full Layout Wireframe - [View](documentation/wireframes/tablet_layout.png)
+* Desktop Full Layout Wireframe - [View](documentation/wireframes/desktop_layout.png)
 
 ***
 
@@ -82,9 +84,10 @@ N.B. Although providing contact details is a priority for both the business and 
 
 1. GitHub - 
 2. GitPod - 
-3. Balsamiq - 
+3. Balsamiq - Used to produce design wireframes.
 4. Bootstrap - 
-5. ...
+5. Affinity Designer - Used to put combine wireframes for documentation.
+6. 
 
 ***
 
