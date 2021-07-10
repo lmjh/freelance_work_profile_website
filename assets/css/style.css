@@ -1,3 +1,13 @@
+/* ---------- COLORS ---------- */
+
+#home {
+    background-color: #fff;
+}
+
+#services {
+    background-color: #fbfbfb;
+}
+
 /* ---------- PADDINGS, MARGINS AND UTILITY RULES ---------- */
 
 #home {
@@ -10,6 +20,17 @@ body {
     position: relative; /* Required for Bootstrap scrollspy */
 }
 
+/* ---------- SERVICES SECTION STYLES ---------- */
+
+
+
+.card-img-round {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-color: #999999;
+    margin: 0 auto;
+}
 
 /* ---------- FOOTER STYLES ---------- */
 
@@ -29,8 +50,4 @@ section {
     background-color: aquamarine;
     min-height: 500px;
     /* overflow-y: scroll; */
-}
-
-#home .col-lg-6 {
-    background-color: #fbfbfb;
 }
