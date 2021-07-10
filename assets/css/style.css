@@ -8,10 +8,18 @@
     background-color: #fbfbfb;
 }
 
+#testimonials {
+    background-color: #fff;
+}
+
 /* ---------- PADDINGS, MARGINS AND UTILITY RULES ---------- */
 
 #home {
     margin-top: 50px;
+}
+
+.section-header {
+
 }
 
 /* ---------- HEADER AND NAV STYLES ---------- */
@@ -22,14 +30,22 @@ body {
 
 /* ---------- SERVICES SECTION STYLES ---------- */
 
-
-
 .card-img-round {
     height: 200px;
     width: 200px;
     border-radius: 50%;
     background-color: #999999;
     margin: 0 auto;
+}
+
+/* ---------- TESTIMONIALS SECTION STYLES ---------- */
+
+.testimonial-text {
+
+}
+
+.testimonial-name {
+
 }
 
 /* ---------- FOOTER STYLES ---------- */
