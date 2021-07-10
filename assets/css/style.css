@@ -1,9 +1,7 @@
 /* ---------- PADDINGS, MARGINS AND UTILITY RULES ---------- */
 
-section {
-    background-color: aquamarine;
-    height: 500px;
-    overflow-y: scroll;
+#home {
+    margin-top: 50px;
 }
 
 /* ---------- HEADER AND NAV STYLES ---------- */
@@ -12,13 +10,27 @@ body {
     position: relative; /* Required for Bootstrap scrollspy */
 }
 
-.active {
-    color:red;
-}
 
 /* ---------- FOOTER STYLES ---------- */
 
 footer {
     background-color: grey;
     height: 100px;
+}
+
+
+/* ---------- TESTING STYLES ---------- */
+
+.active {
+    color:red;
+}
+
+section {
+    background-color: aquamarine;
+    min-height: 500px;
+    /* overflow-y: scroll; */
+}
+
+#home .col-lg-6 {
+    background-color: #fbfbfb;
 }
