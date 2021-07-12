@@ -1,4 +1,4 @@
-/* ---------- COLORS ---------- */
+/* ---------- COLORS AND FONTS ---------- */
 
 #home {
     background-color: #fff;
@@ -20,16 +20,77 @@
     background-color: #fff;
 }
 
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, nav {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
 /* ---------- PADDINGS, MARGINS AND UTILITY RULES ---------- */
 
 .section-header {
-    margin: 50px 0;
+    margin: 100px 0 50px;
+    font-size: 2.5rem;
 }
 
 /* ---------- HEADER AND NAV STYLES ---------- */
 
 body {
     position: relative; /* Required for Bootstrap scrollspy */
+}
+
+header .fixed-top {
+    border-bottom: solid 1px #e9ecef;
+}
+
+.section-header {
+    text-transform: uppercase;
+}
+
+nav {
+    font-size: 1.25em;
+}
+
+nav a {
+    color: #212529;
+}
+
+nav a:hover {
+    color: #222222;
+}
+
+#scrollspy-navbar {
+    margin: 10px 0;
+}
+
+.home-link {
+    border-bottom: solid 0px #33658A;
+}
+
+.services-link {
+    border-bottom: solid 0px #86BBD8;
+}
+
+.testimonials-link {
+    border-bottom: solid 0px #758E4F;
+}
+
+.about-link {
+    border-bottom: solid 0px #F6AE2D;
+}
+
+.contact-link {
+    border-bottom: solid 0px #F26419;
+}
+
+.active {
+    border-bottom-width: 5px;
+}
+
+.nav-link:hover {
+    border-bottom-width: 5px;
 }
 
 /* ---------- HOME SECTION STYLES ---------- */
@@ -115,9 +176,7 @@ footer p {
 
 /* ---------- TESTING STYLES ---------- */
 
-.active {
-    color:red;
-}
+
 
 section {
     background-color: aquamarine;
