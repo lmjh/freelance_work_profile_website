@@ -37,7 +37,7 @@ nav {
 /* ---------- PADDINGS, MARGINS AND UTILITY RULES ---------- */
 
 .section-header {
-    margin: 100px 0 50px;
+    margin-top: 100px;
     font-size: 2.5rem;
 }
 
@@ -81,7 +81,7 @@ nav a:hover {
 }
 
 .testimonials-link {
-    border-bottom: solid 0px #758E4F;
+    border-bottom: solid 0px #136F63;
 }
 
 .about-link {
@@ -148,12 +148,46 @@ nav a:hover {
 
 /* ---------- SERVICES SECTION STYLES ---------- */
 
-.card-img-round {
+#services hr {
+    margin-bottom: 50px;
+    width:100px;
+    border-bottom: solid 5px #86BBD8;
+}
+
+.card-icon-round {
     height: 200px;
     width: 200px;
     border-radius: 50%;
-    background-color: #999999;
-    margin: 0 auto;
+    background-color: #33658A;
+    margin: 0 auto 12px;
+}
+
+.card-icon-round i {
+    color: #fff;
+}
+
+.design-icon {
+    background-color: #86BBD8;
+    font-size: 180px;
+    line-height: 200px;
+}
+
+.dev-icon {
+    background-color: #F26419;;
+    font-size: 130px;
+    line-height: 200px;
+}
+
+.content-icon {
+    background-color: #F6AE2D;
+    font-size: 130px;
+    line-height: 200px;
+}
+
+.hosting-icon {
+    background-color: #136F63;
+    font-size: 130px;
+    line-height: 200px;
 }
 
 .card {
@@ -161,7 +195,9 @@ nav a:hover {
 }
 
 .call-to-action-text {
-    margin-bottom: 50px;
+    margin-bottom: 25px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 2rem;
 }
 
 #services .btn {

@@ -85,9 +85,11 @@ N.B. Although providing contact details is a priority for both the business and 
 1. GitHub - 
 2. GitPod - 
 3. Balsamiq - Used to produce design wireframes.
-4. Bootstrap - 
+4. Bootstrap - Used extensively throughout the project, including the responsive grid, navigation bar, services section cards, testimonial carousel, and the form and button styles.
 5. Affinity Designer - Used to put combine wireframes for documentation.
-6. 
+6. Fontawesome - 
+7. Google Fonts - Used for heading font (Josefin Sans) and body font (Montserrat)
+8. [coolors](https://coolors.co/) - Used to help design colour scheme. 
 
 ***
 
