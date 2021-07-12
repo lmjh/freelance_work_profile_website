@@ -22,18 +22,24 @@
 
 /* ---------- PADDINGS, MARGINS AND UTILITY RULES ---------- */
 
-#home {
-    margin-top: 50px;
-}
-
 .section-header {
-
+    margin: 50px 0;
 }
 
 /* ---------- HEADER AND NAV STYLES ---------- */
 
 body {
     position: relative; /* Required for Bootstrap scrollspy */
+}
+
+/* ---------- HOME SECTION STYLES ---------- */
+
+#home {
+    margin-top: 50px;
+}
+
+#home .jumbotron {
+    margin: 25px 0 50px;
 }
 
 /* ---------- SERVICES SECTION STYLES ---------- */
@@ -46,6 +52,18 @@ body {
     margin: 0 auto;
 }
 
+.card {
+    margin-bottom: 50px;
+}
+
+.call-to-action-text {
+    margin-bottom: 50px;
+}
+
+#services .btn {
+    margin-bottom: 50px;
+}
+
 /* ---------- TESTIMONIALS SECTION STYLES ---------- */
 
 .testimonial-text {
@@ -56,12 +74,44 @@ body {
 
 }
 
+/* ---------- ABOUT ME SECTION STYLES ---------- */
+
+#about h3 {
+    margin-bottom: 25px;
+}
+
+#about .btn {
+    margin: 25px auto 50px;
+}
+
+/* ---------- CONTACT ME SECTION STYLES ---------- */
+
+#contact p, #contact .list-group, #contact input, #contact textarea {
+    margin-bottom: 25px;
+}
+
+#contact .btn {
+    margin-bottom: 50px;
+    min-width: 140px;
+}
+
+#contact textarea {
+    resize: vertical;
+}
+
 /* ---------- FOOTER STYLES ---------- */
 
 footer {
     background-color: grey;
 }
 
+footer p {
+    margin: 25px 0;
+}
+
+.footer-contact {
+    margin-bottom: 25px;
+}
 
 /* ---------- TESTING STYLES ---------- */
 
