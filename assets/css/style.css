@@ -24,7 +24,13 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
-h1, h2, h3, h4, h5, h6, nav {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+nav {
     font-family: 'Josefin Sans', sans-serif;
 }
 
@@ -38,7 +44,8 @@ h1, h2, h3, h4, h5, h6, nav {
 /* ---------- HEADER AND NAV STYLES ---------- */
 
 body {
-    position: relative; /* Required for Bootstrap scrollspy */
+    position: relative;
+    /* Required for Bootstrap scrollspy */
 }
 
 header .fixed-top {
@@ -96,11 +103,47 @@ nav a:hover {
 /* ---------- HOME SECTION STYLES ---------- */
 
 #home {
-    margin-top: 50px;
+    margin-top: 100px;
 }
 
 #home .jumbotron {
     margin: 25px 0 50px;
+}
+
+.home-img-round {
+    border-radius: 50%;
+    max-height: 325px;
+    max-width: 325px;
+}
+
+#home hr {
+    margin-left: 0;
+    width:100px;
+    border-bottom: solid 5px #33658A;
+}
+
+.btn-home {
+    color: #fff;
+    background-color: #33658A;
+    border-color: #33658A;
+    margin: 5px;
+}
+
+.btn-home:hover {
+    color: #212529;
+    background-color: #fff;
+}
+
+.btn-contact {
+    color: #fff;
+    background-color: #F26419;
+    border-color: #F26419;
+    margin: 5px;
+}
+
+.btn-contact:hover {
+    color: #212529;
+    background-color: #fff;
 }
 
 /* ---------- SERVICES SECTION STYLES ---------- */
@@ -127,13 +170,9 @@ nav a:hover {
 
 /* ---------- TESTIMONIALS SECTION STYLES ---------- */
 
-.testimonial-text {
+.testimonial-text {}
 
-}
-
-.testimonial-name {
-
-}
+.testimonial-name {}
 
 /* ---------- ABOUT ME SECTION STYLES ---------- */
 
@@ -147,7 +186,10 @@ nav a:hover {
 
 /* ---------- CONTACT ME SECTION STYLES ---------- */
 
-#contact p, #contact .list-group, #contact input, #contact textarea {
+#contact p,
+#contact .list-group,
+#contact input,
+#contact textarea {
     margin-bottom: 25px;
 }
 
@@ -176,10 +218,17 @@ footer p {
 
 /* ---------- TESTING STYLES ---------- */
 
-
-
 section {
     background-color: aquamarine;
     min-height: 500px;
     /* overflow-y: scroll; */
+}
+
+/* ---------- MEDIA QUERIES ---------- */
+
+@media (min-width:768px) {
+    .home-img-round {
+        max-width: none;
+        max-height: none;
+    }
 }
