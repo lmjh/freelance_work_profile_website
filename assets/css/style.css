@@ -110,7 +110,7 @@ nav a:hover {
     margin: 25px 0 50px;
 }
 
-.home-img-round {
+.feature-img-round {
     border-radius: 50%;
     max-height: 325px;
     max-width: 325px;
@@ -206,11 +206,23 @@ nav a:hover {
 
 /* ---------- TESTIMONIALS SECTION STYLES ---------- */
 
+#testimonials hr {
+    margin-bottom: 50px;
+    width:100px;
+    border-bottom: solid 5px #136F63;
+}
+
 .testimonial-text {}
 
 .testimonial-name {}
 
 /* ---------- ABOUT ME SECTION STYLES ---------- */
+
+#about hr {
+    margin-bottom: 50px;
+    width:100px;
+    border-bottom: solid 5px #F6AE2D;
+}
 
 #about h3 {
     margin-bottom: 25px;
@@ -263,7 +275,7 @@ section {
 /* ---------- MEDIA QUERIES ---------- */
 
 @media (min-width:768px) {
-    .home-img-round {
+    .feature-img-round {
         max-width: none;
         max-height: none;
     }
