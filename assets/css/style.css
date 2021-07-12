@@ -234,6 +234,16 @@ nav a:hover {
 
 /* ---------- CONTACT ME SECTION STYLES ---------- */
 
+#contact hr {
+    margin-bottom: 50px;
+    width:100px;
+    border-bottom: solid 5px #F26419;
+}
+
+#contact .list-group {
+    font-size: 1.5rem;
+}
+
 #contact p,
 #contact .list-group,
 #contact input,
@@ -248,6 +258,17 @@ nav a:hover {
 
 #contact textarea {
     resize: vertical;
+}
+
+.list-group-item:hover {
+    color: #fff;
+    background-color: #F26419;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.form-control:focus, #contact .btn:focus {
+    border-color: #F26419;
+    box-shadow: 0 0 0 .2rem rgba(242,100,25,.25)
 }
 
 /* ---------- FOOTER STYLES ---------- */

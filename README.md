@@ -90,6 +90,9 @@ N.B. Although providing contact details is a priority for both the business and 
 6. Fontawesome - 
 7. Google Fonts - Used for heading font (Josefin Sans) and body font (Montserrat)
 8. [coolors](https://coolors.co/) - Used to help design colour scheme. 
+9. [Pexels](https://www.pexels.com) - Used to source images for Home, Testimonials and About sections.
+    - Home section image: [Body of Water, by Lukas Hartman](https://www.pexels.com/photo/body-of-water-1462011/)
+    - About section image: [Lake Surrounded by Mountain, by Lukas Hartman](https://www.pexels.com/photo/lake-surrounded-by-mountain-1462012/)
 
 ***
 
