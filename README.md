@@ -93,6 +93,10 @@ N.B. Although providing contact details is a priority for both the business and 
 9. [Pexels](https://www.pexels.com) - Used to source images for Home, Testimonials and About sections.
     - Home section image: [Body of Water, by Lukas Hartman](https://www.pexels.com/photo/body-of-water-1462011/)
     - About section image: [Lake Surrounded by Mountain, by Lukas Hartman](https://www.pexels.com/photo/lake-surrounded-by-mountain-1462012/)
+    - Testimonial image 1: [Woman Standing Near Whiteboard, by Christina Morillo.](https://www.pexels.com/photo/woman-standing-near-whiteboard-1181519/)
+    - Testimonial image 2: [Men's Wearing Black Suit Jacket and Pants, by mentatdgt](https://www.pexels.com/photo/men-s-wearing-black-suit-jacket-and-pants-937481/)
+    - Testimonial image 3: [Woman Leaning on Teal and Red Wall, by Luis Quintero.](https://www.pexels.com/photo/woman-leaning-on-teal-and-red-wall-1575996/)
+10. [uifaces.co](https://uifaces.co/) - Used to help find appropriate images for testimonial section.
 
 ***
 
