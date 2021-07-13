@@ -290,15 +290,27 @@ nav {
 /* ---------- FOOTER STYLES ---------- */
 
 footer {
-    background-color: grey;
+    background-color: #495057;
 }
 
 footer p {
     margin: 25px 0;
+    color: #fff;
 }
 
 .footer-contact {
+    /* text-align: right; */
     margin-bottom: 25px;
+    color: #fff;
+}
+
+.footer-contact a {
+    color: #fff;
+}
+
+.footer-contact a:hover {
+    text-decoration: none;
+    color: #eee;
 }
 
 /* ---------- TESTING STYLES ---------- */
