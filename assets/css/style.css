@@ -34,6 +34,15 @@ nav {
     font-family: 'Josefin Sans', sans-serif;
 }
 
+::selection {
+    background: #33658A;
+    color: #fff;
+}
+
+.btn {
+    font-weight: bold;
+}
+
 /* ---------- PADDINGS, MARGINS AND UTILITY RULES ---------- */
 
 .section-header {
@@ -60,11 +69,11 @@ nav {
     font-size: 1.25em;
 }
 
-nav a {
+.navbar-light .navbar-nav .nav-link {
     color: #212529;
 }
 
-nav a:hover {
+.navbar-light .navbar-nav .nav-link {
     color: #222222;
 }
 
@@ -81,7 +90,7 @@ nav a:hover {
 }
 
 .testimonials-link {
-    border-bottom: solid 0px #136F63;
+    border-bottom: solid 0px #87A878;
 }
 
 .about-link {
@@ -103,7 +112,7 @@ nav a:hover {
 /* ---------- HOME SECTION STYLES ---------- */
 
 #home {
-    margin-top: 100px;
+    padding-top: 100px;
 }
 
 #home .jumbotron {
@@ -114,6 +123,8 @@ nav a:hover {
     border-radius: 50%;
     max-height: 325px;
     max-width: 325px;
+    border: solid 1px #e9ecef;
+    padding: 5px;
 }
 
 #home hr {
@@ -185,7 +196,7 @@ nav a:hover {
 }
 
 .hosting-icon {
-    background-color: #136F63;
+    background-color: #87A878;
     font-size: 130px;
     line-height: 200px;
 }
@@ -209,7 +220,7 @@ nav a:hover {
 #testimonials hr {
     margin-bottom: 50px;
     width:100px;
-    border-bottom: solid 5px #136F63;
+    border-bottom: solid 5px #87A878;
 }
 
 .testimonial-text {}
@@ -242,6 +253,11 @@ nav a:hover {
 
 #contact .list-group {
     font-size: 1.5rem;
+}
+
+#contact i {
+    font-size: 36px;
+    float: left;
 }
 
 #contact p,
@@ -294,6 +310,12 @@ section {
 }
 
 /* ---------- MEDIA QUERIES ---------- */
+
+@media (min-width:576px) {
+    .section-header {
+        letter-spacing: 10px;
+    }
+}
 
 @media (min-width:768px) {
     .feature-img-round {
