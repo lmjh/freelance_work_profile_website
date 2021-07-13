@@ -190,30 +190,24 @@ nav {
 
 .card-icon-round i {
     color: rgb(var(--white));
+    font-size: 130px;
+    line-height: 200px;
 }
 
 .design-icon {
     background-color: rgb(var(--lightBlue));
-    font-size: 180px;
-    line-height: 200px;
 }
 
 .dev-icon {
     background-color: rgb(var(--darkOrange));
-    font-size: 130px;
-    line-height: 200px;
 }
 
 .content-icon {
     background-color: rgb(var(--lightOrange));
-    font-size: 130px;
-    line-height: 200px;
 }
 
 .hosting-icon {
     background-color: rgb(var(--lightGreen));
-    font-size: 130px;
-    line-height: 200px;
 }
 
 .card {

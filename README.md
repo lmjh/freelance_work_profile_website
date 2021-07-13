@@ -86,9 +86,9 @@ N.B. Although providing contact details is a priority for both the business and 
 2. GitPod - 
 3. Balsamiq - Used to produce design wireframes.
 4. Bootstrap - Used extensively throughout the project, including the responsive grid, navigation bar, services section cards, testimonial carousel, and the form and button styles.
-5. Affinity Designer - Used to put combine wireframes for documentation.
-6. Fontawesome - 
-7. Google Fonts - Used for heading font (Josefin Sans) and body font (Montserrat)
+5. Affinity Designer - Used to put combine wireframes for documentation and to crop and edit site images.
+6. [Fontawesome](https://fontawesome.com/) - Used for services section and contact section icons. Installed via [cdnjs](https://cdnjs.com/libraries/font-awesome).
+7. [Google Fonts](https://fonts.google.com/) - Used for heading font ([Josefin Sans](https://fonts.google.com/specimen/Josefin+Sans)) and body font ([Montserrat](https://fonts.google.com/specimen/Montserrat)).
 8. [coolors](https://coolors.co/) - Used to help design colour scheme. 
 9. [Pexels](https://www.pexels.com) - Used to source images for Home, Testimonials and About sections.
     - Home section image: [Body of Water, by Lukas Hartman](https://www.pexels.com/photo/body-of-water-1462011/)
