@@ -7,9 +7,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="theme-color" content="#33658A">
     <meta name="author" content="Liam Hemming">
-    <meta name="description" content="Liam Hemming - Freelance Web Designer, Developer and Content Writer based in North Wales">
+    <meta name="description"
+        content="Liam Hemming - Freelance Web Designer, Developer and Content Writer based in North Wales">
     <meta property="og:title" content="Liam Hemming">
-    <meta property="og:description" content="Liam Hemming - Freelance Web Designer, Developer and Content Writer based in North Wales">
+    <meta property="og:description"
+        content="Liam Hemming - Freelance Web Designer, Developer and Content Writer based in North Wales">
     <meta property="og:type" content="website">
     <title>Liam Hemming - Freelance Design, Development and Content</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
@@ -305,7 +307,36 @@
                 </div>
                 <div class="row text-center">
                     <div class="col">
-                        <button type="submit" class="btn btn-contact btn-lg">Send</button>
+                        <button type="submit" class="btn btn-contact btn-lg" data-toggle="modal"
+                            data-target="#contactModal">Send</button>
+                    </div>
+                </div>
+                <div class="modal fade" id="contactModal" tabindex="-1" role="dialog"
+                    aria-labelledby="contactModalLabel" aria-describedby="contactModalMessage" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered" role="document">
+                        <div class="modal-content">
+                            <div class="container-fluid">
+                                <div class="row">
+                                    <div class="col">
+                                        <h5 class="text-center modal-title" id="contactModalLabel">Thank you for your message!</h5>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-fifths div-db"></div>
+                                    <div class="col-fifths div-lb"></div>
+                                    <div class="col-fifths div-g"></div>
+                                    <div class="col-fifths div-lo"></div>
+                                    <div class="col-fifths div-do"></div>
+                                </div>
+                                <div class="modal-body" id="contactModalMessage">
+                                    Your message has been sent and I'll get back to you as soon as I can.
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary mx-auto"
+                                        data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </form>
