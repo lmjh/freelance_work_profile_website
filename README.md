@@ -85,7 +85,7 @@ N.B. Although providing contact details is a priority for both the business and 
 1. GitHub - 
 2. GitPod - 
 3. Balsamiq - Used to produce design wireframes.
-4. Bootstrap - Used extensively throughout the project, including the responsive grid, navigation bar, services section cards, testimonial carousel, and the form and button styles.
+4. Bootstrap - Used extensively throughout the project, including the responsive grid, navigation bar, services section cards, testimonial carousel, and the form and button styles, and the contact button modal.
 5. Affinity Designer - Used to put combine wireframes for documentation and to crop and edit site images.
 6. [Fontawesome](https://fontawesome.com/) - Used for services section and contact section icons. Installed via [cdnjs](https://cdnjs.com/libraries/font-awesome).
 7. [Google Fonts](https://fonts.google.com/) - Used for heading font ([Josefin Sans](https://fonts.google.com/specimen/Josefin+Sans)) and body font ([Montserrat](https://fonts.google.com/specimen/Montserrat)).
@@ -97,6 +97,8 @@ N.B. Although providing contact details is a priority for both the business and 
     - Testimonial image 2: [Men's Wearing Black Suit Jacket and Pants, by mentatdgt](https://www.pexels.com/photo/men-s-wearing-black-suit-jacket-and-pants-937481/)
     - Testimonial image 3: [Woman Leaning on Teal and Red Wall, by Luis Quintero.](https://www.pexels.com/photo/woman-leaning-on-teal-and-red-wall-1575996/)
 10. [uifaces.co](https://uifaces.co/) - Used to help find appropriate images for testimonial section.
+11. [NameFake](https://en.namefake.com/) - Used to generate fake names for testimonial section.
+12. [Inkscape](https://inkscape.org/) - Used to draw vector portrait for homepage.
 
 ***
 

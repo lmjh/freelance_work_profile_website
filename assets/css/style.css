@@ -220,10 +220,6 @@ nav {
     font-size: 2rem;
 }
 
-#services .btn {
-    margin-bottom: 50px;
-}
-
 /* ---------- TESTIMONIALS SECTION STYLES ---------- */
 
 #testimonials hr {
@@ -418,5 +414,9 @@ section {
     .feature-img-round {
         max-width: none;
         max-height: none;
+    }
+
+    .footer-contact {
+        margin-bottom: 0;
     }
 }
