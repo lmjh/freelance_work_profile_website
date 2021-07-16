@@ -78,7 +78,7 @@ The CSS validation check was passed with no errors. 13 warnings were returned fo
 
 ### Contrast Issues
 
-Bug Description:  
+Description:  
 
 While checking that the site met accessiblity standards using the Firefox Accessibility tools, I discovered that the navigation bar text and the button text for the Contact sections both had poor contrast. 
 
@@ -96,20 +96,48 @@ This was resolved by applying darker color to the navigation bar and using bold 
 
 ### Home Navigation Bug
 
-Bug Description:  
+Description:  
 Clicking the Home link on the top navigation bar scrolled the page to just above the page heading, rather than the top of the page as expected.
 
 Solution:  
-The #home section had a top-margin applied to ensure the content wasn't obscured by the navigation bar. The Home link was scrolling to the bottom of this margin. This was resolved by replacing the top-margin with top-padding.
+The #home section had a margin-top applied to ensure the content wasn't obscured by the navigation bar. The Home link was scrolling to the bottom of this margin. This was resolved by replacing the margin-top with padding-top.
 
 * Scroll position before fix:  
 ![An image of the position scrolled to before fix](documentation/testing-images/nav-bug.jpg)
 * Scroll position after fix:  
 ![An image of the position scrolled to after fixing](documentation/testing-images/nav-fixed.jpg)
 
+### Scrollspy Issue
+
+Description:  
+Bootstrap scrollspy is used to update the navigation bar as the user navigates the page in order to provide visual feedback to the user. However, by default scrollspy doesn't update the navigation bar until the user has scrolled past the beginning of the linked section. This results in a confusing user experience, as the screen can be almost full of one section while another section is still highlighted in the navigation bar.
+
+Solution:  
+Using the scrollspy data-offset attribute instructs scrollspy to update the navigation bar earlier, providing a better user experience. I used a data-offest value of 200 pixels.
+
+* Navigation highlighting before fix:  
+![An image of scrollspy behaviour before fix](documentation/testing-images/scrollspy-bug.jpg)
+
+* Navigation highlighting after fix:  
+![An image of scrollspy behaviour after fixing](documentation/testing-images/scrollspy-fixed.jpg)
+
+### Letter Spacing Issue
+
+Description:  
+Section headings have additional letter spacing applied for aesthetic purposes. This caused some section titles to overflow the viewport on smaller screens and become illegible.
+
+Solution:  
+This issue was solved by using media queries to only apply the letter spacing style to larger viewports.
+
+* Mobile view section header before fix:  
+![An image of a section title on mobile before fix](documentation/testing-images/mobile-title-bug.jpg)
+
+* Mobile view section header after fix:  
+![An image of a section title on mobile after fixing](documentation/testing-images/mobile-title-fixed.jpg)
+
+
 ***
 
 ## Known Outstanding Bugs and Issues
 
 * The contact form is not currently functional. Implementing a functional contact form is beyond the scope of this project.
-* The modal to confirm submission of the contact form currently appears whether validation is passed or not. Linking the appearance of the modal to successful completion of validation tests requires technologies that are beyond the scope of this project.

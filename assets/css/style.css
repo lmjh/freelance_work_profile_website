@@ -2,7 +2,7 @@
 
 :root {
     --white: rgb(255, 255, 255);
-    --lightGrey: rgb(251, 251, 251);
+    --lightGrey: rgb(245, 245, 245);
     --grey: rgb(238, 238, 238);
     --darkGrey: rgb(50, 50, 50);
     --borderGrey: rgb(233, 233, 233);
@@ -129,10 +129,6 @@ nav {
 
 #home {
     padding-top: 100px;
-}
-
-#home .jumbotron {
-    margin: 25px 0 50px;
 }
 
 .feature-img-round {
@@ -409,6 +405,9 @@ footer p {
     .feature-img-round {
         max-width: none;
         max-height: none;
+    }
+    #home .jumbotron {
+        margin: 25px 0 50px;
     }
     .footer-contact {
         margin-bottom: 0;
