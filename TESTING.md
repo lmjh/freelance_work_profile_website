@@ -67,11 +67,49 @@ The CSS validation check was passed with no errors. 13 warnings were returned fo
 
 ***
 
-## Significant Bugs Discovered and Fixed
+## Further Testing
 
+* The site and all links were tested extensively with Firefox, Google Chrome and Microsoft Edge.
+* Accessibility testing was done using Firefox Accessibility tools.
+* Responsiveness and mobile layouts were tested using Firefox developer tools and by visiting the site on an Android phone and an iPad.
+* Friends and family were invited to visit the site using a range of devices and feedback any issues or bugs they encountered.
 
+## Significant Bugs and Issues Discovered and Resolved
+
+### Contrast Issues
+
+Bug Description:  
+
+While checking that the site met accessiblity standards using the Firefox Accessibility tools, I discovered that the navigation bar text and the button text for the Contact sections both had poor contrast. 
+
+Solution:  
+This was resolved by applying darker color to the navigation bar and using bold text for the contact buttons.
+
+* Navigation bar before fix:  
+![An image of the navigation bar before fix](documentation/testing-images/navbar-contrast-issue.jpg)
+* Navigation bar after fix:  
+![An image of the navigation bar after fixing](documentation/testing-images/navbar-contrast-fixed.jpg)
+* Contact button before fix:  
+![An image of the contact button before fix](documentation/testing-images/button-contrast-issue.jpg)
+* Contact button after fix:  
+![An image of the contact button after fixing](documentation/testing-images/button-contrast-fixed.jpg)
+
+### Home Navigation Bug
+
+Bug Description:  
+Clicking the Home link on the top navigation bar scrolled the page to just above the page heading, rather than the top of the page as expected.
+
+Solution:  
+The #home section had a top-margin applied to ensure the content wasn't obscured by the navigation bar. The Home link was scrolling to the bottom of this margin. This was resolved by replacing the top-margin with top-padding.
+
+* Scroll position before fix:  
+![An image of the position scrolled to before fix](documentation/testing-images/nav-bug.jpg)
+* Scroll position after fix:  
+![An image of the position scrolled to after fixing](documentation/testing-images/nav-fixed.jpg)
 
 ***
 
 ## Known Outstanding Bugs and Issues
 
+* The contact form is not currently functional. Implementing a functional contact form is beyond the scope of this project.
+* The modal to confirm submission of the contact form currently appears whether validation is passed or not. Linking the appearance of the modal to successful completion of validation tests requires technologies that are beyond the scope of this project.

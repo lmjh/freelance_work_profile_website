@@ -31,8 +31,9 @@ The overall design of the site is clean and minimalist, to highlight the content
 
 #### Colour Scheme
 
-* The site employs a limited colour palette, striking a balance between cooler, professional colours and warmer, friendly colours. 
+* The site employs a limited colour palette, striking a balance between cooler, professional colours and warmer, friendly colours. The palette consists of a dark and light blue, a green, and a dark and light orange. 
 * A colour is associated with each section of the site and used to visually link the navigation bar and the content through coloured underlines of links and section headers. This helps to orient users, establish a feeling of consistency, and provide visual feedback that an action (clicking a coloured link) has had an intended effect (taking the user to the section with the matching colour).
+* The darker orange colour was selected to be associated with the Contact section and used for both the navigation bar and call to action button links to that section, because it is the most bold and eye-catching colour in the palette and stands out both against the light background and in contrast to the other colours. 
 * Colours are used sparingly so as to maintain the clean look of the site and prevent the page from becoming too visually ‘busy’.
 
 #### Typography
@@ -120,6 +121,7 @@ N.B. Although providing contact details is a priority for both the business and 
 12. [Inkscape](https://inkscape.org/) - Used to draw vector portrait for homepage.
 13. [W3C.org](https://www.w3.org/) - W3C [HTML Validator](https://validator.w3.org/nu/) and [CSS Validator](https://jigsaw.w3.org/css-validator/validator) used to check code for errors.
 14. [freeformatter.com](https://www.freeformatter.com/) - [HTML formatter](https://www.freeformatter.com/html-formatter.html) and [CSS formatter](https://www.freeformatter.com/css-beautifier.html) used to beautify code.
+15. [Firefox](https://www.mozilla.org/en-GB/firefox/new/) - Firefox dev tools used extensively to test code and check accessibility.
 
 ***
 
