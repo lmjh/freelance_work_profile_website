@@ -1,42 +1,43 @@
 /* ---------- COLORS AND FONTS ---------- */
 
 :root {
-    --white: 255, 255, 255;
-    --lightGrey: 251, 251, 251;
-    --grey: 238, 238, 238;
-    --darkGrey: 50, 50, 50;
-    --borderGrey: 233, 233, 233;
-    --textBlack: 37, 37, 37;
-    --darkBlue: 51, 101, 138;
-    --lightBlue: 134, 187, 216;
-    --lightGreen: 135, 168, 120;
-    --lightOrange: 246, 174, 45;
-    --darkOrange: 242, 100, 25;
+    --white: rgb(255, 255, 255);
+    --lightGrey: rgb(251, 251, 251);
+    --grey: rgb(238, 238, 238);
+    --darkGrey: rgb(50, 50, 50);
+    --borderGrey: rgb(233, 233, 233);
+    --textBlack: rgb(37, 37, 37);
+    --darkBlue: rgb(51, 101, 138);
+    --lightBlue: rgb(134, 187, 216);
+    --lightGreen: rgb(135, 168, 120);
+    --lightOrange: rgb(246, 174, 45);
+    --darkOrange: rgb(242, 100, 25);
+    --darkOrangeFade: rgba(242, 100, 25, .25)
 }
 
 #home {
-    background-color: rgb(var(--white));
+    background-color: var(--white);
 }
 
 #services {
-    background-color: rgb(var(--lightGrey));
+    background-color: var(--lightGrey);
 }
 
 #testimonials {
-    background-color: rgb(var(--white));
+    background-color: var(--white);
 }
 
 #about {
-    background-color: rgb(var(--lightGrey));
+    background-color: var(--lightGrey);
 }
 
 #contact {
-    background-color: rgb(var(--white));
+    background-color: var(--white);
 }
 
 body {
     font-family: 'Montserrat', sans-serif;
-    color: rgb(var(--textBlack));
+    color: var(--textBlack);
 }
 
 h1,
@@ -50,8 +51,8 @@ nav {
 }
 
 ::selection {
-    background: rgb(var(--darkBlue));
-    color: rgb(var(--white));
+    background: var(--darkBlue);
+    color: var(--white);
 }
 
 .btn {
@@ -77,7 +78,7 @@ body {
 }
 
 header .fixed-top {
-    border-bottom: solid 1px rgb(var(--borderGrey));
+    border-bottom: solid 1px var(--borderGrey);
 }
 
 .section-header {
@@ -89,7 +90,7 @@ nav {
 }
 
 .navbar-light .navbar-nav .nav-link {
-    color: rgb(var(--textBlack));
+    color: var(--textBlack);
 }
 
 #scrollspy-navbar {
@@ -97,23 +98,23 @@ nav {
 }
 
 .home-link {
-    border-bottom: solid 0px rgb(var(--darkBlue));
+    border-bottom: solid 0px var(--darkBlue);
 }
 
 .services-link {
-    border-bottom: solid 0px rgb(var(--lightBlue));
+    border-bottom: solid 0px var(--lightBlue);
 }
 
 .testimonials-link {
-    border-bottom: solid 0px rgb(var(--lightGreen));
+    border-bottom: solid 0px var(--lightGreen);
 }
 
 .about-link {
-    border-bottom: solid 0px rgb(var(--lightOrange));
+    border-bottom: solid 0px var(--lightOrange);
 }
 
 .contact-link {
-    border-bottom: solid 0px rgb(var(--darkOrange));
+    border-bottom: solid 0px var(--darkOrange);
 }
 
 .active {
@@ -138,38 +139,38 @@ nav {
     border-radius: 50%;
     max-height: 325px;
     max-width: 325px;
-    border: solid 1px rgb(var(--borderGrey));
+    border: solid 1px var(--borderGrey);
     padding: 5px;
 }
 
 #home hr {
     margin-left: 0;
     width: 100px;
-    border-bottom: solid 5px rgb(var(--darkBlue));
+    border-bottom: solid 5px var(--darkBlue);
 }
 
 .btn-home {
-    color: rgb(var(--white));
-    background-color: rgb(var(--darkBlue));
-    border-color: rgb(var(--darkBlue));
+    color: var(--white);
+    background-color: var(--darkBlue);
+    border-color: var(--darkBlue);
     margin: 5px;
 }
 
 .btn-home:hover {
-    color: rgb(var(--textBlack));
-    background-color: rgb(var(--white));
+    color: var(--textBlack);
+    background-color: var(--white);
 }
 
 .btn-contact {
-    color: rgb(var(--white));
-    background-color: rgb(var(--darkOrange));
-    border-color: rgb(var(--darkOrange));
+    color: var(--white);
+    background-color: var(--darkOrange);
+    border-color: var(--darkOrange);
     margin: 5px;
 }
 
 .btn-contact:hover {
-    color: rgb(var(--textBlack));
-    background-color: rgb(var(--white));
+    color: var(--textBlack);
+    background-color: var(--white);
 }
 
 /* ---------- SERVICES SECTION STYLES ---------- */
@@ -177,37 +178,37 @@ nav {
 #services hr {
     margin-bottom: 50px;
     width: 100px;
-    border-bottom: solid 5px rgb(var(--lightBlue));
+    border-bottom: solid 5px var(--lightBlue);
 }
 
 .card-icon-round {
     height: 200px;
     width: 200px;
     border-radius: 50%;
-    background-color: rgb(var(--darkBlue));
+    background-color: var(--darkBlue);
     margin: 0 auto 12px;
 }
 
 .card-icon-round i {
-    color: rgb(var(--white));
+    color: var(--white);
     font-size: 130px;
     line-height: 200px;
 }
 
 .design-icon {
-    background-color: rgb(var(--lightBlue));
+    background-color: var(--lightBlue);
 }
 
 .dev-icon {
-    background-color: rgb(var(--darkOrange));
+    background-color: var(--darkOrange);
 }
 
 .content-icon {
-    background-color: rgb(var(--lightOrange));
+    background-color: var(--lightOrange);
 }
 
 .hosting-icon {
-    background-color: rgb(var(--lightGreen));
+    background-color: var(--lightGreen);
 }
 
 .card {
@@ -225,7 +226,7 @@ nav {
 #testimonials hr {
     margin-bottom: 50px;
     width: 100px;
-    border-bottom: solid 5px rgb(var(--lightGreen));
+    border-bottom: solid 5px var(--lightGreen);
 }
 
 #testimonial-carousel {
@@ -236,18 +237,20 @@ nav {
     border-radius: 50%;
     max-height: 500px;
     max-width: 500px;
-    border: solid 1px rgb(var(--borderGrey));
+    border: solid 1px var(--borderGrey);
     padding: 5px;
 }
 
 .carousel-caption {
-    background-color: rgb(var(--white));
-    border: solid 1px rgb(var(--borderGrey));
+    background-color: var(--white);
+    border: solid 1px var(--borderGrey);
     border-radius: 5px;
-    color: rgb(var(--textBlack));
+    color: var(--textBlack);
 }
 
-.testimonial-text {}
+.testimonial-text {
+    padding: 0 3px;
+}
 
 .testimonial-name {
     margin-bottom: 5px;
@@ -262,7 +265,7 @@ nav {
 }
 
 .carousel-indicators li {
-    background-color: rgb(var(--lightGreen));
+    background-color: var(--lightGreen);
     width: 10px;
     height: 10px;
     border-radius: 50%;
@@ -273,7 +276,7 @@ nav {
 #about hr {
     margin-bottom: 50px;
     width: 100px;
-    border-bottom: solid 5px rgb(var(--lightOrange));
+    border-bottom: solid 5px var(--lightOrange);
 }
 
 #about h3 {
@@ -289,7 +292,7 @@ nav {
 #contact hr {
     margin-bottom: 50px;
     width: 100px;
-    border-bottom: solid 5px rgb(var(--darkOrange));
+    border-bottom: solid 5px var(--darkOrange);
 }
 
 #contact .list-group {
@@ -318,15 +321,15 @@ nav {
 }
 
 .list-group-item:hover {
-    color: rgb(var(--white));
-    background-color: rgb(var(--darkOrange));
+    color: var(--white);
+    background-color: var(--darkOrange);
     transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
 }
 
 .form-control:focus,
 #contact .btn:focus {
-    border-color: rgb(var(--darkOrange));
-    box-shadow: 0 0 0 .2rem rgba(var(--darkOrange), .25);
+    border-color: var(--darkOrange);
+    box-shadow: 0 0 0 .2rem var(--darkOrangeFade);
 }
 
 /********** MODAL STYLES **********/
@@ -344,23 +347,23 @@ nav {
 }
 
 .div-db {
-    border-bottom: solid 10px rgb(var(--darkBlue));
+    border-bottom: solid 10px var(--darkBlue);
 }
 
 .div-lb {
-    border-bottom: solid 10px rgb(var(--lightBlue));
+    border-bottom: solid 10px var(--lightBlue);
 }
 
 .div-g {
-    border-bottom: solid 10px rgb(var(--lightGreen));
+    border-bottom: solid 10px var(--lightGreen);
 }
 
 .div-lo {
-    border-bottom: solid 10px rgb(var(--lightOrange));
+    border-bottom: solid 10px var(--lightOrange);
 }
 
 .div-do {
-    border-bottom: solid 10px rgb(var(--darkOrange));
+    border-bottom: solid 10px var(--darkOrange);
 }
 
 .col-fifths {
@@ -372,34 +375,26 @@ nav {
 /* ---------- FOOTER STYLES ---------- */
 
 footer {
-    background-color: rgb(var(--darkGrey));
+    background-color: var(--darkGrey);
 }
 
 footer p {
     margin: 25px 0;
-    color: rgb(var(--white));
+    color: var(--white);
 }
 
 .footer-contact {
     margin-bottom: 25px;
-    color: rgb(var(--white));
+    color: var(--white);
 }
 
 .footer-contact a {
-    color: rgb(var(--white));
+    color: var(--white);
 }
 
 .footer-contact a:hover {
     text-decoration: none;
-    color: rgb(var(--grey));
-}
-
-/* ---------- TESTING STYLES ---------- */
-
-section {
-    background-color: aquamarine;
-    min-height: 500px;
-    /* overflow-y: scroll; */
+    color: var(--grey);
 }
 
 /* ---------- MEDIA QUERIES ---------- */
@@ -415,7 +410,6 @@ section {
         max-width: none;
         max-height: none;
     }
-
     .footer-contact {
         margin-bottom: 0;
     }

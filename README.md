@@ -118,6 +118,8 @@ N.B. Although providing contact details is a priority for both the business and 
 10. [uifaces.co](https://uifaces.co/) - Used to help find appropriate images for testimonial section.
 11. [NameFake](https://en.namefake.com/) - Used to generate fake names for testimonial section.
 12. [Inkscape](https://inkscape.org/) - Used to draw vector portrait for homepage.
+13. [W3C.org](https://www.w3.org/) - W3C [HTML Validator](https://validator.w3.org/nu/) and [CSS Validator](https://jigsaw.w3.org/css-validator/validator) used to check code for errors.
+14. [freeformatter.com](https://www.freeformatter.com/) - [HTML formatter](https://www.freeformatter.com/html-formatter.html) and [CSS formatter](https://www.freeformatter.com/css-beautifier.html) used to beautify code.
 
 ***
 
