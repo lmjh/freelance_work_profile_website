@@ -242,7 +242,6 @@ nav {
     border: solid 1px var(--borderGrey);
     border-radius: 5px;
     color: var(--textBlack);
-    opacity: 0.9;
 }
 
 .testimonial-text {
@@ -373,6 +372,7 @@ nav {
 
 footer {
     background-color: var(--darkGrey);
+    padding: 10px 0;
 }
 
 footer p {
@@ -386,7 +386,7 @@ footer p {
 }
 
 .footer-contact a {
-    color: var(--white);
+    color: var(--lightBlue);
 }
 
 .footer-contact a:hover {
