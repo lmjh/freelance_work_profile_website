@@ -8,7 +8,7 @@ I primarily cater to local businesses, sole traders and charities. My clients ar
 
 The site is designed to provide easily accessible, relevant information to my target audience. I have used a responsive, mobile-first design to ensure the site is effective and well laid out across a range of devices.
 
-![The site's landing page on a range of devices](documentation/illustrations/responsive-landing.jpg)
+![The site's landing page on a range of devices](documentation/readme-images/responsive-landing.jpg)
 
 ***
 
@@ -36,7 +36,7 @@ The overall design of the site is clean and minimalist, to highlight the content
 #### Colour Scheme
 
 * The site employs a limited colour palette, striking a balance between cooler, professional colours and warmer, friendly colours. The palette consists of a dark blue (#33658A), a light blue (#86bbd8), a light green (#87a878), a light orange (#f6ae2d), and a darker orange (#f26419).  
-![The color palette](documentation/illustrations/colour-palette.jpg)
+![The color palette](documentation/readme-images/colour-palette.jpg)
 * A colour is associated with each section of the site and used to visually link the navigation bar and the content through coloured underlines of links and section headers. The colours progress tonally as the user scrolls through the page, from the dark blue, through the cooler blue and green, and into the warmer light and dark orange. This helps to orient users and establish an impression of consistency and progression. It also provides visual feedback that an action (clicking a coloured link) has had an intended effect (taking the user to the section with the matching colour).
 * The darker orange colour was selected to be associated with the Contact section and used for both the navigation bar and call to action button links to that section, because it is the most bold and eye-catching colour in the palette and stands out both against the light background and in contrast to the other colours. 
 * Colours are used sparingly so as to maintain the clean look of the site and prevent the page from becoming too visually ‘busy’.
@@ -76,34 +76,43 @@ Full layout wireframes for different sized devices can be viewed here:
 
 * The site uses a sticky navigation bar at the top of the page. This is an array of links that allows site users to quickly navigate to any section of the site.
 * The navigation bar is always visible on desktop screens and uses the Bootstrap scrollspy feature to visually update the links with coloured underlining as the user scrolls through the site.
-* The navigation bar collapses into a hidden menu on smaller screens in order to make better use of the limited screen space. Users can view or hide the navigation menu by tapping or clicking on the icon at the top of the screen.
+* The navigation bar collapses into a hidden menu on smaller screens in order to make better use of the limited screen space. Users can view or hide the navigation menu by tapping or clicking on the icon at the top of the screen.  
+![The navigation bar is full width on larger screens](documentation/readme-images/readme-navbar.jpg)  
+![The navigation bar collapses on smaller screens](documentation/readme-images/readme-navbar-mobile.jpg)
 
 ### Concise Descriptions of Services
 
 * The site features concise descriptions of the services on offer, presented using Bootstrap’s cards feature and illustrated with Font Awesome icon fonts.
-* The clean and simple presentation and concise descriptions are intended to provide users with just enough easily absorbable information about the services, without overwhelming them with technical details or information overload.
+* The clean and simple presentation and concise descriptions are intended to provide users with just enough easily absorbable information about the services, without overwhelming them with technical details or information overload.  
+![The Services section features concise descriptions of services presented on cards](documentation/readme-images/readme-services.jpg)  
 
 ### Testimonials from Previous Clients
 
 * The site features a section to display images of and quotes from previous clients, to help establish trust and demonstrate reliability to potential clients. The feature uses Bootstrap’s carousel, which allows for both automatic and manual scrolling of the embedded content.
-* The people and quotations are currently fictitious and the section contains stock photographs, for demonstration purposes.
+* The people and quotations are currently fictitious and the section contains stock photographs, for demonstration purposes.  
+![The Testimonial section features testimonials from previous clients presented in a carousel](documentation/readme-images/readme-testimonials.jpg)  
 
 ### Contact Section
 
 * The site has a contact section where users can find details on how to contact the freelancer as well as a simple contact form. 
 * The phone number and email address are both clickable and will directly call or email the associated number or address, if the user’s browser is set up to handle this. 
-* The contact form is designed to be as simple as possible, with just three clearly labelled required fields, and provides visual feedback to the user on successful completion by displaying a confirmation message in a Bootstrap modal. The contact form does not currently send any messages, as that functionality is beyond the scope of this project.
+* The contact form is designed to be as simple as possible, with just three clearly labelled required fields, and provides visual feedback to the user on successful completion by displaying a confirmation message in a Bootstrap modal. The contact form does not currently send any messages, as that functionality is beyond the scope of this project.  
+![The Contact section features contact details and a contact form](documentation/readme-images/readme-contact.jpg)  
 
 ### Responsive Design
 
 * The site is designed to be responsive, which means that the layout and various features and sections adapt and rearrange depending on the size of the user’s viewport. This ensures that the site is well laid out and functional on a wide range of viewing devices, including mobiles, tablets, laptops and desktops.
-* The Bootstrap grid system is used extensively to achieve the responsive design, along with CSS media queries. Where possible and appropriate, the site uses relative units such as rem and %, which aids the site in adapting to different screen sizes.
+* The Bootstrap grid system is used extensively to achieve the responsive design, along with CSS media queries. Where possible and appropriate, the site uses relative units such as rem and %, which aids the site in adapting to different screen sizes.  
+![The site layout responsively adapts to the user's viewport size](documentation/readme-images/readme-responsive.jpg)  
+
 
 ### Accessibility
 
 * The site uses semantic HTML elements and [ARIA (Accessible Rich Internet Applications)](https://www.w3.org/WAI/standards-guidelines/aria/) HTML attributes to ensure that it is as accessible as possible for visitors using screen readers or other visitors with additional accessibility needs.  
 * The site uses relative units for text sizing, which helps to maintain accessibility for users who require larger text and have their browsers set up accordingly.
-* The site has been tested for accessibility using Firefox’s accessibility tools, including examining the structure, ensuring navigation menus are accessible, and checking that text has adequate contrast.
+* The site has been tested for accessibility using Firefox’s accessibility tools, including examining the structure, ensuring navigation menus are accessible, and checking that text has adequate contrast.  
+![The site layout responsively adapts to the user's viewport size](documentation/readme-images/readme-accessibility.jpg)  
+
 
 ***
 
@@ -213,7 +222,7 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 ## Other Credits and Acknowledgements
 
-* My Code Institute mentor, [Tim Nelson](https://tim.2bn.dev/), provided the script to display a Bootstrap modal when the user submits a validated form, as well as a wealth of other advice and assistance.
+* My Code Institute mentor, [Tim Nelson](https://tim.2bn.dev/), provided some assistance for the script to display a Bootstrap modal only when the user submits a validated form, as well as a wealth of other advice and assistance.
 * [Code Institute](https://codeinstitute.net/) for their useful lessons and reference materials.
 * [Pexels](https://www.pexels.com) was used to source images for Testimonials and About sections.
     - About section image: [Lake Surrounded by Mountain, by Lukas Hartman](https://www.pexels.com/photo/lake-surrounded-by-mountain-1462012/)
