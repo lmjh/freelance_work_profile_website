@@ -86,13 +86,13 @@ Solution:
 This was resolved by applying darker color to the navigation bar and using bold text for the contact buttons.
 
 * Navigation bar before fix:  
-![An image of the navigation bar before fix](documentation/testing-images/navbar-contrast-issue.jpg)
+![The navigation bar before fix](documentation/testing-images/navbar-contrast-issue.jpg)
 * Navigation bar after fix:  
-![An image of the navigation bar after fixing](documentation/testing-images/navbar-contrast-fixed.jpg)
+![The navigation bar after fixing](documentation/testing-images/navbar-contrast-fixed.jpg)
 * Contact button before fix:  
-![An image of the contact button before fix](documentation/testing-images/button-contrast-issue.jpg)
+![The contact button before fix](documentation/testing-images/button-contrast-issue.jpg)
 * Contact button after fix:  
-![An image of the contact button after fixing](documentation/testing-images/button-contrast-fixed.jpg)
+![The contact button after fixing](documentation/testing-images/button-contrast-fixed.jpg)
 
 ### Home Navigation Bug
 
@@ -103,9 +103,9 @@ Solution:
 The #home section had a margin-top applied to ensure the content wasn't obscured by the navigation bar. The Home link was scrolling to the bottom of this margin. This was resolved by replacing the margin-top with padding-top.
 
 * Scroll position before fix:  
-![An image of the position scrolled to before fix](documentation/testing-images/nav-bug.jpg)
+![The position scrolled to before fix](documentation/testing-images/nav-bug.jpg)
 * Scroll position after fix:  
-![An image of the position scrolled to after fixing](documentation/testing-images/nav-fixed.jpg)
+![The position scrolled to after fixing](documentation/testing-images/nav-fixed.jpg)
 
 ### Scrollspy Issue
 
@@ -116,10 +116,10 @@ Solution:
 Using the scrollspy data-offset attribute instructs scrollspy to update the navigation bar earlier, providing a better user experience. I used a data-offest value of 200 pixels.
 
 * Navigation highlighting before fix:  
-![An image of scrollspy behaviour before fix](documentation/testing-images/scrollspy-bug.jpg)
+![Scrollspy behaviour before fix](documentation/testing-images/scrollspy-bug.jpg)
 
 * Navigation highlighting after fix:  
-![An image of scrollspy behaviour after fixing](documentation/testing-images/scrollspy-fixed.jpg)
+![Scrollspy behaviour after fixing](documentation/testing-images/scrollspy-fixed.jpg)
 
 ### Letter Spacing Issue
 
@@ -130,10 +130,10 @@ Solution:
 This issue was solved by using media queries to only apply the letter spacing style to larger viewports.
 
 * Mobile view section header before fix:  
-![An image of a section title on mobile before fix](documentation/testing-images/mobile-title-bug.jpg)
+![Section title on mobile before fix](documentation/testing-images/mobile-title-bug.jpg)
 
 * Mobile view section header after fix:  
-![An image of a section title on mobile after fixing](documentation/testing-images/mobile-title-fixed.jpg)
+![Section title on mobile after fixing](documentation/testing-images/mobile-title-fixed.jpg)
 
 
 ***
@@ -141,3 +141,5 @@ This issue was solved by using media queries to only apply the letter spacing st
 ## Known Outstanding Bugs and Issues
 
 * The contact form is not currently functional. Implementing a functional contact form is beyond the scope of this project.
+* Firefox accessibility tools are still detecting a contrast issue on the Testimonial carousel Previous and Next controls. However, this seems to be a Firefox bug, as the tool appears to be detecting both foreground and background as white and therefore having no contrast.  
+![Carousel control contrast bug](documentation/testing-images/carousel-bug.jpg)

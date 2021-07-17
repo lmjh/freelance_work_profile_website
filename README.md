@@ -1,10 +1,14 @@
 # Freelance Work Profile Website
 
+[Visit the live site here.](https://lmjh.github.io/freelance_work_profile_website/)
+
 The purpose of the site is to provide information about my freelance services to prospective clients and provide contact details to both new and returning customers.
 
 I primarily cater to local businesses, freelancers and charities. My clients are usually looking for a locally-based developer to work with and aren't usually interested in many technical details.
 
 The site is designed to provide easily accessible, relevant information to my target audience. I have used a responsive, mobile-first design to ensure the site is effective and well laid out across a range of devices.
+
+![The site's landing page on a range of devices](documentation/illustrations/responsive-landing.jpg)
 
 ***
 
@@ -32,7 +36,7 @@ The overall design of the site is clean and minimalist, to highlight the content
 #### Colour Scheme
 
 * The site employs a limited colour palette, striking a balance between cooler, professional colours and warmer, friendly colours. The palette consists of a dark blue (#33658A), a light blue (#86bbd8), a light green (#87a878), a light orange (#f6ae2d), and a darker orange (#f26419).  
-![An illustration of the color palette](documentation/illustrations/colour-palette.jpg)
+![The color palette](documentation/illustrations/colour-palette.jpg)
 * A colour is associated with each section of the site and used to visually link the navigation bar and the content through coloured underlines of links and section headers. This helps to orient users, establish a feeling of consistency, and provide visual feedback that an action (clicking a coloured link) has had an intended effect (taking the user to the section with the matching colour).
 * The darker orange colour was selected to be associated with the Contact section and used for both the navigation bar and call to action button links to that section, because it is the most bold and eye-catching colour in the palette and stands out both against the light background and in contrast to the other colours. 
 * Colours are used sparingly so as to maintain the clean look of the site and prevent the page from becoming too visually ‘busy’.
@@ -51,13 +55,13 @@ The overall design of the site is clean and minimalist, to highlight the content
 * The home section is intended to serve as a friendly and welcoming introduction, so it is illustrated by a simple vector drawing of myself, to accompany the informal greeting header and the introduction text. To help establish visual consistency, the drawing uses the same limited colour palette as the website for the clothing, eye colour and background.
 * Font Awesome icons are used to illustrate the Services section. The icons are set against simple coloured backgrounds, using the website’s colour palette. 
 * The testimonial section currently uses fictitious people and quotes, so stock images of people are used to illustrate these and help to establish trust with potential clients. The images selected are intended to represent a range of potential clients: a teacher in front of a whiteboard, a business person in a suit, and a person in front of a colourful, graffitied background, intended to imply creativity. These images would be replaced with real images of actual clients in a final live version of the site.
-* An image of a mountain lake in my part of the country is used to illustrate the About section, to reinforce the idea that I’m a rurally-based developer who works with local businesses.
+* An image of a mountain lake in my part of the country is used to illustrate the About section, as decoration and to reinforce the idea that I’m a rurally-based developer. Note that because this image is primarily decorative and used for ambiance, it is not enclosed in a semantic HTML figure element and the alt text attribute is deliberately left blank, in accordance with [W3C accessibility guidance](https://www.w3.org/WAI/tutorials/images/decorative/#image-used-for-ambiance-eye-candy). Blank alt text attributes for these types of images avoids "audible clutter to screen reader output" ([W3C](https://www.w3.org/WAI/tutorials/images/decorative/)).
 
 ### Wireframes
 
 The site is responsively designed to adapt to the viewing device.
 
-![An illustration of the landing page on different devices](documentation/wireframes/responsive-layouts.png)
+![Wireframe of the landing page as viewed on different devices](documentation/wireframes/responsive-layouts.png)
 
 Full layout wireframes for different sized devices can be viewed here:
 * Mobile Full Layout Wireframe - [View](documentation/wireframes/mobile-layout.png)
@@ -129,14 +133,14 @@ N.B. Although providing contact details is a priority for both the business and 
 * HTML5
 * CSS3
 
-### Frameworks, Libraries & Programs Used
+### Frameworks, Libraries & Applications Used
 
 1. [GitHub](https://github.com/) - Used for version control and deployment through GitHub Pages.
 2. [GitPod](https://gitpod.io/) - Used to write all code and test before deploying to GitHub.
 3. [Balsamiq](https://balsamiq.com/) - Used to produce design wireframes.
-4. [Bootstrap](https://getbootstrap.com/) - Version 4.6 used extensively throughout the project, including the responsive grid, navigation bar, services section cards, testimonial carousel, and the form and button styles, and the contact button modal. [Official documentation for Bootstrap 4.6](https://getbootstrap.com/docs/4.6/getting-started/introduction/) was also used extensively for reference.
-5. [Affinity Designer](https://affinity.serif.com/en-gb/designer/) - Used to put combine wireframes for documentation and to crop and edit site images.
-6. [Fontawesome](https://fontawesome.com/) - Used for services section and contact section icons. Installed via [cdnjs](https://cdnjs.com/libraries/font-awesome).
+4. [Bootstrap](https://getbootstrap.com/) - Version 4.6 used extensively throughout the project, including the responsive grid, navigation bar, services section cards, testimonial carousel, the form and button styles, and the contact button modal. [Official documentation for Bootstrap 4.6](https://getbootstrap.com/docs/4.6/getting-started/introduction/) was also used extensively for reference.
+5. [Affinity Designer](https://affinity.serif.com/en-gb/designer/) - Used to crop, edit and compress images for the site and documentation.
+6. [Font Awesome](https://fontawesome.com/) - Used for services section and contact section icons. Installed via [cdnjs](https://cdnjs.com/libraries/font-awesome).
 7. [Google Fonts](https://fonts.google.com/) - Used for heading font ([Josefin Sans](https://fonts.google.com/specimen/Josefin+Sans)) and body font ([Montserrat](https://fonts.google.com/specimen/Montserrat)).
 8. [coolors](https://coolors.co/) - Used to help design colour scheme. 
 9. [Firefox](https://www.mozilla.org/en-GB/firefox/new/) - Firefox dev tools used extensively to test code and check accessibility.
@@ -145,12 +149,13 @@ N.B. Although providing contact details is a priority for both the business and 
 12. [Inkscape](https://inkscape.org/) - Used to draw vector portrait for homepage.
 13. [W3C.org](https://www.w3.org/) - W3C [HTML Validator](https://validator.w3.org/nu/) and [CSS Validator](https://jigsaw.w3.org/css-validator/validator) used to check code for errors.
 14. [freeformatter.com](https://www.freeformatter.com/) - [HTML formatter](https://www.freeformatter.com/html-formatter.html) and [CSS formatter](https://www.freeformatter.com/css-beautifier.html) used to beautify code.
+15. [responsivemockups.com](https://responsivemockups.com/) - Used to generate the mockups of the landing page embedded at the top of this readme.
 
 ***
 
 ## Testing
 
-Please see [TESTING.md](TESTING.md) for full details of tests performed and bugs fixed.
+Please see [TESTING.md](TESTING.md) for more details of tests performed and bugs fixed.
 
 ***
 

@@ -242,6 +242,7 @@ nav {
     border: solid 1px var(--borderGrey);
     border-radius: 5px;
     color: var(--textBlack);
+    opacity: 0.9;
 }
 
 .testimonial-text {
