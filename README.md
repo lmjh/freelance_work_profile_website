@@ -75,9 +75,9 @@ Full layout wireframes for different sized devices can be viewed here:
 ### Navigation Bar
 
 * The site uses a sticky navigation bar at the top of the page. This is an array of links that allows site users to quickly navigate to any section of the site.
-* The navigation bar is always visible on desktop screens and uses the Bootstrap scrollspy feature to visually update the links with coloured underlining as the user scrolls through the site.
-* The navigation bar collapses into a hidden menu on smaller screens in order to make better use of the limited screen space. Users can view or hide the navigation menu by tapping or clicking on the icon at the top of the screen.  
+* The navigation bar is always visible on desktop screens and uses the Bootstrap scrollspy feature to visually update the links with coloured underlining as the user scrolls through the site.  
 ![The navigation bar is full width on larger screens](documentation/readme-images/readme-navbar.jpg)  
+* The navigation bar collapses into a hidden menu on smaller screens in order to make better use of the limited screen space. Users can view or hide the navigation menu by tapping or clicking on the icon at the top of the screen.  
 ![The navigation bar collapses on smaller screens](documentation/readme-images/readme-navbar-mobile.jpg)
 
 ### Concise Descriptions of Services
@@ -140,8 +140,8 @@ N.B. Although providing contact details is a priority for both the business and 
 
 ### Languages Used
 
-* HTML5
-* CSS3
+* [HTML5](https://en.wikipedia.org/wiki/HTML5)
+* [CSS3](https://en.wikipedia.org/wiki/CSS)
 
 ### Frameworks, Libraries & Applications Used
 

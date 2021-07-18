@@ -48,12 +48,12 @@ The CSS validation check was passed with no errors. 13 warnings were returned fo
     ![Contact section showing contact links and form](documentation/user-story-images/user-stories-contact-screenshot.jpg)
 4. As a prospective new client, I want to quickly be able to understand how to navigate the site to find the information I need.
 
-    * A navigation bar is included at the top of the page. This is the most common location for a navigation bar and so most users will be able to quickly find this.
+    * A navigation bar is included at the top of the page. This is the most common location for a navigation bar and so most users will be able to quickly find this.  
+    ![Navigation bar when viewed on larger screens](documentation/user-story-images/user-stories-navbar-full.jpg)  
     * Users on larger screens can see the “My Services” title at the bottom of the home screen, which provides a visual clue that simply scrolling down will reveal more content.
     * The site uses smooth scrolling so that when navigation bar links are clicked, the viewport scrolls smoothly to the requested section. This gives users a visual clue that all of the content is on the same page and is accessible by simply scrolling.
     * The site uses the Bootstrap scrollspy feature to visually update the navigation bar as the user scrolls through the site sections. This gives users who scroll down when they arrive but don’t use the navigation bar a visual clue that the navigation bar is available as an alternative method of navigation.  
-    ![Navigation bar when viewed on larger screens](documentation/user-story-images/user-stories-navbar-full.jpg)  
-    ![Navigation bar when viewed on smaller screens](documentation/user-story-images/user-stories-navbar-mobile.jpg)
+    ![Navigation bar when viewed on smaller screens](documentation/user-story-images/user-stories-navbar-mobile.jpg)  
 5. As a prospective new client, I want to learn more about the freelancer so I know who I might be working with.
 
     * Users are greeted with a short introduction along with a vector portrait of the freelancer. 
